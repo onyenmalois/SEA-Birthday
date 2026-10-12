@@ -32,7 +32,7 @@ function intro() {
   return `<section class="screen center intro rise">
     <p class="eyebrow">A memorable gift from driven</p>
     <h1 class="display">Happy<span class="italic gold glowtext">Birthday${name ? ", " + esc(name) : ""}</span></h1>
-    <p class="lead">Four little films, made with love, then a wall full of memories from the people whose lives you have touched.</p>
+    <p class="lead">Two little films, made with love, then a wall full of memories from the people whose lives you have touched.</p>
     <button class="btn" data-go="gift:0">Begin your celebration</button>
     <small>.a few minutes of love.</small>
   </section>`;
